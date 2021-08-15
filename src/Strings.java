@@ -9,6 +9,11 @@ public class Strings {
         System.out.println("Hello\tWorld!".length());
         System.out.println("Hello\nWorld!".length());
         System.out.println("Hello World!".length());
-        System.out.println("This is a string!");
+        System.out.println("This is a String!".toLowerCase());
+        System.out.println("This is a String!".charAt(5));
+        System.out.println("This is a String!".indexOf("S"));
+        System.out.println("This is a String!".indexOf("g"));
+        System.out.println("This is a String!".substring(10, 16));
+        System.out.println("This is a String!".indexOf("s a"));
     }
 }
